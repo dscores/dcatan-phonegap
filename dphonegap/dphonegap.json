@@ -1,0 +1,6 @@
+{
+  "javascripts": [
+    "cordova.js",
+    "app-cordova.js"
+  ]
+}

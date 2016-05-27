@@ -1,0 +1,23 @@
+{
+  "name": "dcatan-phonegap",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "http://github.com/dscores/dcatan-phonegap",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm-run-all --parallel postinstall:*",
+    "postinstall:dlogos": "dlogos",
+    "postinstall:dphonegap": "dphonegap dcatan"
+  },
+  "dependencies": {
+    "dlogos": "^2.0.0",
+    "dphonegap": "^5.1.0",
+    "dcatan": "dscores/dcatan",
+    "dragonprojects-logo": "^1.0.0",
+    "npm-run-all": "^1.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dscores/dcatan-phonegap.git"
+  }
+}

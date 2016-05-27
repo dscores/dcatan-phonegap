@@ -1,0 +1,27 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="de.dscores.dcatan" version="1.0.0">
+  <name>dcatan</name>
+  <description></description>
+
+  <preference name="orientation" value="portrait"/>
+  <preference name="permissions" value="none" />
+
+  <plugin name="cordova-plugin-insomnia" source="npm" />
+
+  <icon src="res/icon/icon.png"/>
+  <platform name="android">
+    <icon src="res/icon/android/icon-36-ldpi.png" qualifier="ldpi"/>
+    <icon src="res/icon/android/icon-48-mdpi.png" qualifier="mdpi"/>
+    <icon src="res/icon/android/icon-72-hdpi.png" qualifier="hdpi"/>
+    <icon src="res/icon/android/icon-96-xhdpi.png" qualifier="xhdpi"/>
+  </platform>
+  <platform name="ios">
+    <icon src="res/icon/ios/icon-57.png" width="57" height="57"/>
+    <icon src="res/icon/ios/icon-72.png" width="72" height="72"/>
+    <icon src="res/icon/ios/icon-57-2x.png" width="114" height="114"/>
+    <icon src="res/icon/ios/icon-72-2x.png" width="144" height="144"/>
+  </platform>
+  <platform name="winphone">
+    <icon src="res/icon/windows-phone/icon-48.png"/>
+    <icon src="res/icon/windows-phone/icon-173-tile.png" role="background"/>
+  </platform>
+</widget>
